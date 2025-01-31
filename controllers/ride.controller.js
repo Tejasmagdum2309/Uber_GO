@@ -1,7 +1,7 @@
-const rideService = require('../services/ride.service');
+const rideService = require('../services/ride.service.js');
 const { validationResult } = require('express-validator');
-const mapService = require('../services/maps.service');
-const { sendMessageToSocketId } = require('../socket');
+const mapService = require('../services/maps.service.js');
+const { sendMessageToSocketId } = require('../socket.js');
 const rideModel = require('../models/ride.model');
 
 
